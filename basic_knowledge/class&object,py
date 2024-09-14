@@ -1,0 +1,10 @@
+class Lizard:
+    def __init__(self,name):
+        self.name = name
+    def bark(self):
+        return "크아앙"
+    def skin(self):
+        return "비늘"
+iguana=Lizard("디노")
+print(iguana.bark())
+print(iguana.skin())

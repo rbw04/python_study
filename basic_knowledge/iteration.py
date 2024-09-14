@@ -7,3 +7,7 @@
 #    if k==4:
 #        continue
 #    print(k)
+#for c in range(10):
+#    if c==8:
+#        break
+#    print(c)
