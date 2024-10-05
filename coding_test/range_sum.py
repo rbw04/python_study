@@ -1,10 +1,9 @@
 #백준10986
 
-div=input()
-number=list(input())
+div=input(int())
+number=list(map(int,input()))
 count=0
-for i in number:
-    a=0
-    b=1
-    if sum(number[a:b])/div==0:
+for (a,i) in range(len(number)):
+    if sum(number[a:i])/div==0:
         count+=1
+print(count)
